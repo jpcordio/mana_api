@@ -72,14 +72,14 @@ DeviseTokenAuth.setup do |config|
 
   # Confirm account - define route
   config.default_confirm_success_url = if Rails.env.production?
-    'http://my-app/login'
+    'https://mana-api-92b61d2011eb.herokuapp.com/api/login'
   else
     'http://localhost:4200/login'
   end
 
   # redirect after successful apssword reset
   config.default_password_reset_url = if Rails.env.production?
-    'http://my-app/login'
+    'https://mana-api-92b61d2011eb.herokuapp.com/api/login'
   else
     'http://localhost:4200/reset-password'
   end
