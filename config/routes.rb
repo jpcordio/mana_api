@@ -18,7 +18,6 @@ Rails.application.routes.draw do
 end
 
 # Example:
-
 # blog/api/v1/article: default = false version = 1
 # blog/api/v2/article: default = true version = 2
 
